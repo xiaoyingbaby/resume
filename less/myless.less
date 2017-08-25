@@ -1,0 +1,108 @@
+@width:1100px;
+@height:100%;
+@margin:10px auto;
+@position:relative;
+@border-radius:50%;
+@nice-blue: #ff9c3a;
+@light-blue: @nice-blue + #111;
+.text-style{font-size:16px;line-height:2;color:#333;}
+html,body,body>form{
+  height:@height;
+}
+body{font: 14px/1.5 'Microsoft Yahei';background:#f3f5f7;color:#444;}
+.wrapper{
+  position:@position;
+  min-height:@height;
+  .inner{
+    position:@position;
+    width:@width;
+    margin:@margin;
+    padding-bottom:50px;
+    background:#fff;
+    -webkit-box-shadow:0 0 5px #e0e2e4;
+    -moz-box-shadow:0 0 5px #e0e2e4;
+    box-shadow:0 0 5px #e0e2e4;
+  }
+}
+.content{
+  .side{
+    width:264px;
+    padding:15px;
+  }
+  .main{
+    width:756px;
+    padding:15px;
+  }
+}
+.side{
+  .introduce{
+    width:150px;
+    margin:25px auto 0;
+    padding:20px;
+    border:14px transparent solid;
+    border-image:url(../images/border.png) 28 28 round;
+    font-size:0;
+    img{
+      width:100%;
+      border-radius:@border-radius;
+    }
+  }
+  .introduce-detail{
+    padding:20px;
+    .introduce-detail-item{
+      padding-top:20px;
+      .title{
+        font-size:20px;
+        font-weight:normal;
+        line-height:40px;
+        color:@light-blue;
+      }
+      p{
+        .text-style;
+      }
+    }
+  }
+}
+.main-info{
+  padding:15px 30px;
+  .resume-item{
+    margin-bottom:10px;
+    .title{
+      margin-bottom:30px;
+      line-height:60px;
+      font-size:20px;
+      font-weight:normal;
+      color:@light-blue;
+      border-bottom:1px @light-blue solid;
+    }
+    .bd{
+      padding:0 15px;
+      color:#333;
+    }
+    .education-bg{
+      padding:0 20px;
+      .text-style;
+      a{
+        color:@nice-blue;
+        text-decoration:none;
+      }
+    }
+    .project-experience{
+      .title-sub{
+        font-size:18px;
+        line-height:2;
+        font-weight:normal;
+      }
+    }
+    .project{
+      margin-left:20px;
+    }
+    .project-item{
+      margin-left:30px;
+      li{
+        list-style:disc;
+        .text-style;
+      }
+    }
+  }
+}

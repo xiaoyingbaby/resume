@@ -1,0 +1,111 @@
+.text-style {
+  font-size: 16px;
+  line-height: 2;
+  color: #333;
+}
+html,
+body,
+body > form {
+  height: 100%;
+}
+body {
+  font: 14px/1.5 'Microsoft Yahei';
+  background: #f3f5f7;
+  color: #444;
+}
+.wrapper {
+  position: relative;
+  min-height: 100%;
+}
+.wrapper .inner {
+  position: relative;
+  width: 1100px;
+  margin: 10px auto;
+  padding-bottom: 50px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 5px #e0e2e4;
+  -moz-box-shadow: 0 0 5px #e0e2e4;
+  box-shadow: 0 0 5px #e0e2e4;
+}
+.content .side {
+  width: 264px;
+  padding: 15px;
+}
+.content .main {
+  width: 756px;
+  padding: 15px;
+}
+.side .introduce {
+  width: 150px;
+  margin: 25px auto 0;
+  padding: 20px;
+  border: 14px transparent solid;
+  border-image: url(../images/border.png) 28 28 round;
+  font-size: 0;
+}
+.side .introduce img {
+  width: 100%;
+  border-radius: 50%;
+}
+.side .introduce-detail {
+  padding: 20px;
+}
+.side .introduce-detail .introduce-detail-item {
+  padding-top: 20px;
+}
+.side .introduce-detail .introduce-detail-item .title {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 40px;
+  color: #ffad4b;
+}
+.side .introduce-detail .introduce-detail-item p {
+  font-size: 16px;
+  line-height: 2;
+  color: #333;
+}
+.main-info {
+  padding: 15px 30px;
+}
+.main-info .resume-item {
+  margin-bottom: 10px;
+}
+.main-info .resume-item .title {
+  margin-bottom: 30px;
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: normal;
+  color: #ffad4b;
+  border-bottom: 1px #ffad4b solid;
+}
+.main-info .resume-item .bd {
+  padding: 0 15px;
+  color: #333;
+}
+.main-info .resume-item .education-bg {
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 2;
+  color: #333;
+}
+.main-info .resume-item .education-bg a {
+  color: #ff9c3a;
+  text-decoration: none;
+}
+.main-info .resume-item .project-experience .title-sub {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: normal;
+}
+.main-info .resume-item .project {
+  margin-left: 20px;
+}
+.main-info .resume-item .project-item {
+  margin-left: 30px;
+}
+.main-info .resume-item .project-item li {
+  list-style: disc;
+  font-size: 16px;
+  line-height: 2;
+  color: #333;
+}
